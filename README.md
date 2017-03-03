@@ -1,17 +1,15 @@
-# CollectorBank.Serilog.Enrichers.ThreadContext
+# CollectorBank.Serilog.Enrichers.ThreadContext  
 
 Enrichers that enrich Serilog events with CorrelationId and UnitOfWorkId based on the current thread task context.
----
 
+---
 ## CorrelationId vs UnitOfWorkId
 CorrelationId can be sent by external system will the idea of UnitOfWorkId is to set an id when doing work.  
 For example, an external system can make a HTTP request with a CorrelationId and for the request a UnitOfWorkId is set.  
 The external system might get an error back and later will make the exact same request then the CorrelationId will be  
 the same will the UnitOfWorkId will be different between the request.
 
-The same might apply when processing message from a service bus where the message has a CorrelationId  and the processing  
-of the message get a UnitOfWorkId.
----
+The same might apply when processing message from a service bus where the message has a CorrelationId  and the processing of the message get a UnitOfWorkId.
 
 ## Included enrichers
 
@@ -19,8 +17,8 @@ The package includes:
 
  * `WithCorrelationId` - adds the CorrelationId associated with the current thread task context to the log event.
  * `WithUnitOfWorkId` - adds the UnitOfWorkId associated with the current thread task context to the log event.
+
 ---
- 
 ## Setup Guide
 
 To use the enrichers, first install the NuGet package:
