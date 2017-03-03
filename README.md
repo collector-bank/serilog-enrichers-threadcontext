@@ -1,4 +1,5 @@
 # CollectorBank.Serilog.Enrichers.ThreadContext  
+[![Build status](https://ci.appveyor.com/api/projects/status/oyr350vdhqqvpisj/branch/master?svg=true)](https://ci.appveyor.com/project/klowdo/collectorbank-serilog-enrichers-threadcontext/branch/master)
 
 Enrichers that enrich Serilog events with CorrelationId and UnitOfWorkId based on the current thread task context.
 
