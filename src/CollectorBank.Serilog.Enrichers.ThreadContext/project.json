@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "xmlDoc": true
+  },
+
+  "description": "Enriches Serilog events with CorrelationId and UnitOfWorkId based on the current thread task context.",
+  "authors": [ "Collector Bank Contributors" ],
+  "title": "CollectorBank.Serilog.Enrichers.ThreadContext",
+  "copyright": "Copyright 2017",
+  "packOptions": {
+    "summary": "Enriches Serilog events with CorrelationId and UnitOfWorkId based on the current thread task context.",
+    "owners": [ "Collector Bank" ],
+    "tags": [ "serilog", "enricher", "collectorbank", "collector" ],
+    "requireLicenseAcceptance": false,
+    "releaseNotes": "First release",
+    "repository": {
+      "url": "https://github.com/collector-bank/collectorbank-serilog-enrichers-threadcontext",
+      "type": "git"
+    }
+  },
+
+
+  "dependencies": {
+    "Serilog": "2.4.0"
+  },
+
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+      }
+    },
+    "netstandard1.6": {
+      "dependencies": {
+        "System.Runtime.InteropServices": "4.1.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E8C2D6B6-2E80-49F5-97AA-53CE2B802C07}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CollectorBank.Serilog.Enrichers.ThreadContext.Tests", "test\CollectorBank.Serilog.Enrichers.ThreadContext.Tests\CollectorBank.Serilog.Enrichers.ThreadContext.Tests.xproj", "{E70CA2A7-8A6D-4FD3-B135-4CE376069E8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2628935-3037-4D02-923D-43F8C7EE7B1E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CollectorBank.Serilog.Enrichers.ThreadContext", "src\CollectorBank.Serilog.Enrichers.ThreadContext\CollectorBank.Serilog.Enrichers.ThreadContext.xproj", "{38B9C906-9EDB-49C0-86D7-3956240ED328}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CollectorBank.Serilog.Enrichers.ThreadContext.Console", "test\CollectorBank.Serilog.Enrichers.ThreadContext.Console\CollectorBank.Serilog.Enrichers.ThreadContext.Console.xproj", "{7FEB69A7-AB70-4519-84AF-E13260909FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E70CA2A7-8A6D-4FD3-B135-4CE376069E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70CA2A7-8A6D-4FD3-B135-4CE376069E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70CA2A7-8A6D-4FD3-B135-4CE376069E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70CA2A7-8A6D-4FD3-B135-4CE376069E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B9C906-9EDB-49C0-86D7-3956240ED328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B9C906-9EDB-49C0-86D7-3956240ED328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B9C906-9EDB-49C0-86D7-3956240ED328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B9C906-9EDB-49C0-86D7-3956240ED328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FEB69A7-AB70-4519-84AF-E13260909FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEB69A7-AB70-4519-84AF-E13260909FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEB69A7-AB70-4519-84AF-E13260909FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEB69A7-AB70-4519-84AF-E13260909FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E70CA2A7-8A6D-4FD3-B135-4CE376069E8C} = {E8C2D6B6-2E80-49F5-97AA-53CE2B802C07}
+		{7FEB69A7-AB70-4519-84AF-E13260909FBA} = {E8C2D6B6-2E80-49F5-97AA-53CE2B802C07}
+	EndGlobalSection
+EndGlobal
